@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Milestone2 Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dynamic Resume Builder</h1>
+    <form id="resume-builder">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <p class="personal">
+                Name:
+                <input type="text" id="name" required>
+            </p>
+            <p class="personal"></p>
+                Father's Name:
+                <input type="text" id="f-name"  required>
+            </p>
+            <p class="personal"></p>
+                Contact:
+                <input type="text" id="Contact"  required>
+            </p>
+            <p class="Personal"></p>
+                Date of Birth:
+                <input type="date" id="dob" required/>
+        </p>
+         <p class="Personal">
+                Email Address:
+                <input type="email" id="email" required/>
+         </p>      
+
+        </fieldset>
+        <fieldset>
+            <legend>Experience</legend>
+            <p class="personal">
+                <textarea name="personal" id="experience" rows="6" ></textarea>
+            </p>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <p class="personal">
+                <textarea name="education" id="education"  rows="6" ></textarea>
+            </p>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            <p class="personal">
+                <textarea name="skills" id="skills"  rows="6" ></textarea>
+            </p>
+            
+        </fieldset>
+        <button type="submit"><b>Generate Resume</b></button>
+    </form>
+    <br>
+    
+    <div id="display-resume"> 
+        
+    </div>
+
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>

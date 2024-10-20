@@ -1,6 +1,6 @@
 // coding for get data for resume and to display it
-var form = document.getElementById('resume-builder');
-var resumeElementDisplay = document.getElementById('display-resume');
+var form = document.getElementById("resume-builder");
+var resumeElementDisplay = document.getElementById("display-resume");
 // form submission
 form.addEventListener('submit', function (event) {
     event.preventDefault(); // prevent page to reload
